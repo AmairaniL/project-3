@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" id= "background">
   <head>
-
     <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js">
+      function initialize() {
+        var mapOptions = {
+          zoom: 25,
+          center: new google.maps.LatLng(0, 0)
+        };
 
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+      }
+
+      window.onload = initialize;
     </script>
   </head>
   <body>
-
+    <div id="map-canvas"></div>
   </body>
 </html>
