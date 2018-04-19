@@ -158,12 +158,23 @@ Additional Edits on Navigation
 #map {
 	height: 400px;
 	width: 400px;
-	border: 5px solid pink;
 	margin-top: 20px;
+	margin-bottom: 20px;
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;;
-	
+}
+
+.button {
+    background-color: #008CBA;
+    border: none;
+	border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 body {
