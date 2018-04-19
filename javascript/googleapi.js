@@ -2,7 +2,6 @@ var map;
 var marker;
 var current;
 
-//top radioactive locations on Earth.
 var chicago={lat: 41.8562277, lng: -87.6912785}
 var xalapa={lat: 19.5438, lng: -96.9102};
 var coyolillo={lat: 19.567482, lng: -96.746547};
