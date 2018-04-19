@@ -155,6 +155,17 @@ Additional Edits on Navigation
   background-color: blue;
 }
 
+#map {
+	height: 400px;
+	width: 400px;
+	border: 5px solid pink;
+	margin-top: 20px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;;
+	
+}
+
 body {
   background-color: #8FB2FF; /*sky blue*/ 
   background-size: 1800px 900px;
